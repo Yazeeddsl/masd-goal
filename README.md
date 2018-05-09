@@ -6,5 +6,6 @@ https://github.com/collab-uniba/socialcde4eclipse/wiki/How-to-import-a-GitHub-pr
 ## Design Tool evaluation
 
 https://sites.google.com/site/rmitagents/software/prometheusPDT/tutorials/quick-start-guide
-(shitty to install!)
+- shitty to install! 
 
+blabla test
