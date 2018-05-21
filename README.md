@@ -7,6 +7,7 @@ https://github.com/collab-uniba/socialcde4eclipse/wiki/How-to-import-a-GitHub-pr
 
 https://sites.google.com/site/rmitagents/software/prometheusPDT/tutorials/quick-start-guide
 - shitty to install! 
++++ the professor wants/loves it
 
 draw.io
 +gdrive support
