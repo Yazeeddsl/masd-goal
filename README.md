@@ -15,6 +15,13 @@ draw.io
 +version-control
 
 
+## Eclipse plugin
 
+Steps for installing this Prometheus Modelling Tool plug-in on Eclipse:
 
+Download and uncompress the PDT-Plugin-v0.5.1.zip file
+Copy the jar files to:
+Eclipse’s plug-ins folder (Windows / Linux)
+Folder: [EclipseInstallationFolder]/Eclipse.app/Contents/Eclipse/dropins (Mac OS)
+ 
 
