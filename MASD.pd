@@ -20,8 +20,12 @@
 <EntityCell IMemento.internal.id="3842" MotherDiagram="1283" WrappedEntity="2561">
 <Look Height="-1" Width="-1" XCoordinate="100" YCoordinate="130"/>
 </EntityCell>
+<EntityCell IMemento.internal.id="4610" MotherDiagram="515" WrappedEntity="4353">
+<Look Height="-1" Width="-1" XCoordinate="428" YCoordinate="110"/>
+</EntityCell>
 </CellPool>
 <EntityPool IMemento.internal.id="2826" PoolType="1">
 <Agent EntityName="dsfasd" IMemento.internal.id="2561"/>
+<Actor EntityName="actor 2" IMemento.internal.id="4353"/>
 </EntityPool>
 </Project>
