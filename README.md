@@ -1,12 +1,16 @@
 # masd-goal
 
-#### TODOs
+## TODOs
 
-- fix modelling problem in eclipse(that the diagrams are not shown and the palette neither)
+#### undone
+ 
 -alternativly: get another modelling tool running on macos
 -start coding
 -prepare presentation
 -prepare documentation
+
+####done
+- fix modelling problem in eclipse(that the diagrams are not shown and the palette neither) and adjust
 
 ## Git and Eclipse
 https://github.com/collab-uniba/socialcde4eclipse/wiki/How-to-import-a-GitHub-project-into-Eclipse
@@ -33,5 +37,5 @@ Copy the jar files to:
 Eclipse’s plug-ins folder (Windows / Linux)
 Folder: [EclipseInstallationFolder]/Eclipse.app/Contents/Eclipse/dropins (Mac OS)
  
-Open MASD.pd with XXX
+Open MASD.pd with ...
 
