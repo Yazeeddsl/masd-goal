@@ -1,0 +1,18 @@
+use tower as knowledge.
+use towerGoal as goals.
+use tower as actionspec.
+
+define constructiveMove(X, Y) as
+	a-goal( tower([X,Y|T]) ), bel( tower([Y|T]), clear(Y), (clear(X) ; holding(X)) ).
+	
+module towerbuilder {
+	if a-goal( holding(X) ) then pickup(X).
+
+	if bel( holding(X) ) then {
+      if constructiveMove(X,Y) then putdown(X, Y).
+      if true then putdown(X, table).
+    }
+	
+	% nothing done? Then put arm at home position.
+	if true then nil. 
+}
