@@ -37,5 +37,13 @@ Copy the jar files to:
 Eclipse’s plug-ins folder (Windows / Linux)
 Folder: [EclipseInstallationFolder]/Eclipse.app/Contents/Eclipse/dropins (Mac OS)
  
-Open MASD.pd with ...
+Open MASD.pd in eclipse.
+To draw, you have to open the pallete by clicking on the arrow on top of the scroll bar.(very hidden!!!1!)
+
+
+
+
+
+
+
 
