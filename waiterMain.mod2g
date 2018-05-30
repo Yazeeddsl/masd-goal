@@ -1,0 +1,4 @@
+use restaurant as knowledge.
+module waiterMain {
+	if true then print("I am a waiter").
+}

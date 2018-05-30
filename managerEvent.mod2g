@@ -1,0 +1,6 @@
+use managerGoals as knowledge.
+module managerEvent {
+   
+   if (customer).sent!(greetings(Text)) then print(Text)
+   + (customer).send?(howManySeats("Hello,How many are you?")) + print ("Hello,How many are you?").	
+}

@@ -1,0 +1,5 @@
+use managerGoals as knowledge.
+module managerInit {
+	%if true then  adopt(printLines(1)). 
+	%if true then adopt(printHello(1)).
+}

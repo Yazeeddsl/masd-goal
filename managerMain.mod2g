@@ -1,0 +1,9 @@
+use managerGoals as goals.
+use managerBeliefs as beliefs.
+use restaurant as knowledge.
+exit = nogoals.
+module managerMain {
+	if (customer).sent!(greetings(Text)) then (customer).send?(howManySeats("Hello,How many are you?")) + print("Customer says " + Text).
+	if (customer).sent(tableFor(Count)) then print("There are") + print(Count) + print(" customers now!").
+	
+}
