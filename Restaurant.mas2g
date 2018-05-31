@@ -1,0 +1,24 @@
+use "HelloWorldEnvironment-1.2.0.jar" as environment.
+define manager as agent{
+  use managerMain as main.
+  %use managerInit as init.
+  %use managerEvent as event.
+}
+
+define customer as agent{
+  use customerMain as main.
+  %use customerInit as init.
+  %use customerEvent as event.
+}
+define waiter as agent{
+  use waiterMain as main.
+  %use customerInit as init.
+  %use customerEvent as event.
+}
+launchpolicy{
+	launch manager.
+    when * launch customer.
+    
+    launch waiter.
+     
+  }

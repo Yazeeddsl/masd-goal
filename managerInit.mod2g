@@ -1,0 +1,8 @@
+use managerGoals as knowledge.
+module managerInit {
+	%if true then insert(tableForOne(0)). %+ adopt(tableForOne(5)).
+	if true then insert(tableForTwo(0)). %+ adopt(tableForTwo(6)).
+	%if true then insert(tableForFour(0)). %+ adopt(tableForFour(5)).
+	%if true then  adopt(printLines(1)). 
+	%if true then adopt(printHello(1)).
+}

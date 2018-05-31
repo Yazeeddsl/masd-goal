@@ -1,0 +1,16 @@
+%use managerGoals as goals.
+use managerBeliefs as beliefs.
+use restaurant as knowledge.
+use printText as actionspec.
+exit = never.
+
+module managerMain {
+	if (customer).sent!(greetings(Text)) then (customer).send?(howManySeats("Hello,How many are you?")) 
+	+ print("Customer says") + print(Text).
+	if (customer).sent(tableFor(Count)) then print("There are 2") + print("customers now!") + insert(tableFor(Count)).
+	if bel(tableForOneTaken(Count)) then (customer).send?(msg("did you come alone?")) + print("sent successfully").
+	if bel(tableForTwoTaken(Count)) then (customer).send?(msg("are you a couple?")) + print("sent successfully").
+	if bel(tableForFourTaken(Count)) then (customer).send?(msg("are you a family?")) + print("sent successfully").
+	
+	
+}
