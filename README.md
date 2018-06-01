@@ -3,7 +3,7 @@
 ## TODOs
 
 #### undone
- 
+
 
 1. prepare documentation
 -write some text about the process
@@ -13,6 +13,9 @@
 -slides from documentation
 
 
+#### modelling decisions(to adjust to a problem)
+a. fully automated restaurant(only robots)
+b. partially automated restaurant(screens and task for humans, supportive system)
 
 ####done
 - fix modelling problem in eclipse(that the diagrams are not shown and the palette neither) and adjust
@@ -24,7 +27,7 @@ https://github.com/collab-uniba/socialcde4eclipse/wiki/How-to-import-a-GitHub-pr
 ## Design Tool evaluation
 
 https://sites.google.com/site/rmitagents/software/prometheusPDT/tutorials/quick-start-guide
-- shitty to install! 
+- shitty to install!
 +++ the professor wants/loves it
 
 draw.io
@@ -42,7 +45,7 @@ Download and uncompress the PDT-Plugin-v0.5.1.zip file
 Copy the jar files to:
 Eclipse’s plug-ins folder (Windows / Linux)
 Folder: [EclipseInstallationFolder]/Eclipse.app/Contents/Eclipse/dropins (Mac OS)
- 
+
 Open MASD.pd in eclipse.
 To draw, you have to open the pallete by clicking on the arrow on top of the scroll bar.(very hidden!!!1!)
 
