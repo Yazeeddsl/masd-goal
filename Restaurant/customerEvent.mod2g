@@ -1,0 +1,6 @@
+use customerGoals as knowledge.
+ 
+module customerEvent {
+	if true then (manager).send!(greetings("Hello manager!")) + print("the first is sent").
+	if (manager).sent?(howManySeats(Text)) then (manager).send(tableFor(2)). 
+}

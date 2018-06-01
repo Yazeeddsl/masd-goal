@@ -1,0 +1,18 @@
+use customerGoals as goals.
+use customerBeliefs as beliefs.
+use restaurant as knowledge.
+exit = nogoals.
+
+define greet(Text) as not(bel(greetings(Text))).
+define seat(Text) as bel(sit(Text)).
+module customerMain {
+	
+	if greet("Hello manager!") then (manager).send!(greetings("Hello manager!")) + insert(greetings("Hello manager!")).
+	if (manager).sent?(howManySeats(Text)) then (manager).send(tableFor(2)) + insert(remainingTablesForTwo(28)) + insert(sit("seated")). 
+	if seat(Text) then (manager).send(sit("We are seated thanks""We are seated thanks")) + (waiter).send(needFood("For two")).
+	
+	%if a-goal(greetings("Hello manager!")) then (customer).send!(greetings(Text)) + print("Customer says " + Text).
+	%if a-goal(greetings("Hello manager!")) then (customer).send!(greetings(Text)) + print("Customer says " + Text).
+	%if a-goal(greetings("Hello manager!")) then (customer).send!(greetings(Text)) + print("Customer says " + Text).
+	%if (customer).sent(tableFor(Count)) then print("There are") + print(Count) + print(" customers now!").
+}
