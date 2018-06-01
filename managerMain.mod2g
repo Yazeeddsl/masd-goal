@@ -11,6 +11,6 @@ module managerMain {
 	if bel(tableForOneTaken(Count)) then (customer).send?(msg("did you come alone?")) + print("sent successfully").
 	if bel(tableForTwoTaken(Count)) then (customer).send?(msg("are you a couple?")) + print("sent successfully").
 	if bel(tableForFourTaken(Count)) then (customer).send?(msg("are you a family?")) + print("sent successfully").
-	
+	if (customer).sent(pay(Text)) then (customer).send(payments("Received payment")).
 	
 }

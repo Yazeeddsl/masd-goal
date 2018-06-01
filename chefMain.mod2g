@@ -1,0 +1,5 @@
+use restaurant as knowledge.
+exit = never.
+module chefMain {
+	if (waiter).sent(cookFood(Text)) then (waiter).send(msgFood("food is readyRRRRRRRR")).
+}

@@ -1,4 +1,7 @@
 use restaurant as knowledge.
+exit = never.
 module waiterMain {
-	if true then print("I am a waiter").
+	if (customer).sent(needFood("For two")) then (customer).send(msg("food coming your way")) 
+	+(chef).send(cookFood("For Two")).
+	if (chef).sent(msgFood(Text)) then (customer).send(msgFood(Text)).
 }

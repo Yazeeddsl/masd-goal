@@ -15,10 +15,14 @@ define waiter as agent{
   %use customerInit as init.
   %use customerEvent as event.
 }
+define chef as agent{
+  use chefMain as main.
+}
 launchpolicy{
 	launch manager.
     when * launch customer.
     
     launch waiter.
+    launch chef.
      
   }
