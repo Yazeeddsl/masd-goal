@@ -1,0 +1,10 @@
+use tables as knowledge.
+
+
+define arrived(Table, NumberOfGuests) as
+	goal(send(Waiter, Table, NumberOfGuests)), bel(hosted(Table)).
+
+module manager {
+	if arrived(Table, NumberOfGuests)
+		then host(Table, NumberOfGuests).
+}

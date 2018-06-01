@@ -1,0 +1,11 @@
+use tables as knowledge.
+
+
+define called(Table, NumberOfGuests) as
+	goal(visit(Table, NumberOfGuests)), bel(served(Table)).
+
+
+module waiter {
+	if called(Table, NumberOfGuests, Action)
+		then serve(Table, NumberOfGuests).
+}

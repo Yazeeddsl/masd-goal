@@ -1,0 +1,14 @@
+define waiter as agent {
+	use waiter as main module.
+	use guestEvents as event module.
+} 
+
+define manager as agent {
+	use manager as main module.
+	use guestEvents as event module.
+}
+
+launchpolicy {
+    launch waiter.
+	launch manager.
+}

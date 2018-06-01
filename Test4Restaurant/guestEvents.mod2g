@@ -1,0 +1,3 @@
+module guestEvents {
+	if (Guest).arrived(NumberOfGuests) then insert (occupy(Number)).
+}
