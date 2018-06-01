@@ -88,7 +88,7 @@
 <Look Height="-1" Width="-1" XCoordinate="100" YCoordinate="160"/>
 </EntityCell>
 <EntityCell IMemento.internal.id="7170" MotherDiagram="2051" WrappedEntity="6401">
-<Look Height="-1" Width="-1" XCoordinate="118" YCoordinate="128"/>
+<Look Height="-1" Width="-1" XCoordinate="99" YCoordinate="88"/>
 </EntityCell>
 <EntityCell IMemento.internal.id="13058" MotherDiagram="1027" WrappedEntity="12801">
 <Look Height="-1" Width="-1" XCoordinate="100" YCoordinate="220"/>
