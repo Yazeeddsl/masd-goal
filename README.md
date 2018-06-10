@@ -93,13 +93,17 @@ Analysis Overview:
 - agents cant connect to scenarios
 - scenarios cant connect to goals
 - Solutions:
+- create an agent for every actor, which is a robot in "reality"
 
 Goal Overview:
 - show dependencies of the goals.
 - not completly sure about the root-goal
 - could be more fine-granular
 
-
+Detailed Diagram:
+- not started yet
+- payment process would be cool
+- bank as environment, so model protocoll an api also 
 
 
 
