@@ -87,10 +87,18 @@ Describe the prototype you have built. Does it cover all the scenario as describ
 
 ## Diagram Descriptions(WIP)
 
+Analysis Overview:
+- we wanted to model basically goals, scenarios, agents, actors(human) and roles
+- Challenges:
+- agents cant connect to scenarios
+- scenarios cant connect to goals
+- Solutions:
+
 Goal Overview:
 - show dependencies of the goals.
 - not completly sure about the root-goal
 - could be more fine-granular
+
 
 
 
