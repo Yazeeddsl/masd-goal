@@ -85,7 +85,12 @@ Describe the prototype you have built. Does it cover all the scenario as describ
 
 (you will have to do a demo to the rest of the students on June 8)
 
+## Diagram Descriptions(WIP)
 
+Goal Overview:
+- show dependencies of the goals.
+- not completly sure about the root-goal
+- could be more fine-granular
 
 
 
