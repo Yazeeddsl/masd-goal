@@ -41,6 +41,7 @@
 <Relation DST="10241" IMemento.internal.id="71173" Prominence="0" RelationType="16" SRC="3585"/>
 <Relation DST="20993" IMemento.internal.id="28421" Prominence="0" RelationType="1073741830" SRC="28161"/>
 <Relation DST="29697" IMemento.internal.id="103941" Prominence="0" RelationType="16" SRC="20993"/>
+<Relation DST="109313" IMemento.internal.id="109829" Prominence="0" RelationType="1073741830" SRC="109057"/>
 <Relation DST="27137" IMemento.internal.id="27653" Prominence="0" RelationType="1073741830" SRC="26881"/>
 <Relation DST="5121" IMemento.internal.id="51973" Prominence="0" RelationType="-2147483648" SRC="3585"/>
 <Relation DST="34817" IMemento.internal.id="57861" Prominence="0" RelationType="-2147483648" SRC="7169"/>
@@ -201,6 +202,9 @@
 <EntityCell IMemento.internal.id="37378" MotherDiagram="1027" WrappedEntity="37121">
 <Look Height="-1" Width="-1" XCoordinate="368" YCoordinate="42"/>
 </EntityCell>
+<EntityCell IMemento.internal.id="109570" MotherDiagram="1027" WrappedEntity="109313">
+<Look Height="-1" Width="-1" XCoordinate="100" YCoordinate="130"/>
+</EntityCell>
 <EntityCell IMemento.internal.id="72706" MotherDiagram="1795" WrappedEntity="72193">
 <Look Height="-1" Width="-1" XCoordinate="238" YCoordinate="297"/>
 </EntityCell>
@@ -302,6 +306,9 @@
 </EntityCell>
 <EntityCell IMemento.internal.id="98050" MotherDiagram="515" WrappedEntity="81409">
 <Look Height="-1" Width="-1" XCoordinate="433" YCoordinate="438"/>
+</EntityCell>
+<EntityCell IMemento.internal.id="110082" MotherDiagram="1539" WrappedEntity="109057">
+<Look Height="-1" Width="-1" XCoordinate="179" YCoordinate="281"/>
 </EntityCell>
 <EntityCell IMemento.internal.id="24322" MotherDiagram="1283" WrappedEntity="24065">
 <Look Height="-1" Width="-1" XCoordinate="381" YCoordinate="205"/>
@@ -418,6 +425,7 @@
 <EntityPool IMemento.internal.id="2826" PoolType="1">
 <Step IMemento.internal.id="54529"/>
 <Goal EntityName="Phone Call" IMemento.internal.id="20993"/>
+<Scenario EntityName="Eating Scenario" IMemento.internal.id="109057" RelevantGoal="109313"/>
 <Goal EntityName="Good Reputation" IMemento.internal.id="2561"/>
 <Scenario EntityName="In Restaurant Scenario" IMemento.internal.id="26881" RelevantGoal="27137"/>
 <Goal EntityName="Quality Indicators" IMemento.internal.id="90625"/>
@@ -436,6 +444,7 @@
 <Actor EntityName="Delivery Service" IMemento.internal.id="100865"/>
 <Goal EntityName="Satisfy Clients" IMemento.internal.id="3585"/>
 <Scenario EntityName="Take away Scenerario Scenario" IMemento.internal.id="24577" RelevantGoal="24833"/>
+<Goal EntityName="Eating" IMemento.internal.id="109313"/>
 <Scenario EntityName="Payment Scenario" IMemento.internal.id="36353">
 <Step ID="54529" INDEX="0"/>
 </Scenario>
